@@ -33,3 +33,4 @@
     $ docker-compose run --rm app yarn install
     $ docker-compose up
 # my-first-react-app-in-typescript
+# my-first-react-app-in-typescript

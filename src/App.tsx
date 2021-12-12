@@ -1,11 +1,16 @@
 import React from 'react';
+import Couter from './Couter';
 
 interface AppProps {
   message?: string;
 }
 
 const App: React.FunctionComponent<AppProps> = ({ message }) => {
-  return <div>{message}</div>;
+  return (
+    <div>
+      <Couter />
+    </div>
+  );
 };
 
 App.defaultProps = {
